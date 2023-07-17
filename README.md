@@ -12,6 +12,15 @@ Open the project in your preferred Java IDE.
 
 Build and run the application using Maven or your IDE's build and run commands.
 
+## Install the required dependencies.
+```shell
+   git clone https://github.com/tghazary/TestExerciseCounter.git
+```
+
+## Run the application
+```shell
+   git clone https://github.com/tghazary/TestExerciseCounter.git
+```
 Open a web browser and go to http://localhost:8080 to access the TestExerciseCounter application.
 
 Functionality
