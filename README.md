@@ -25,15 +25,21 @@ Technologies Used
 The TestExerciseCounter application is built using the following technologies:
 
 Java 17
+
 Spring Boot
+
 Vaadin
+
 H2 database
+
 Maven
-Contributing
+
+
+## Contributing
 Contributions to the TestExerciseCounter project are welcome. If you would like to contribute, please follow the guidelines in the CONTRIBUTING.md file.
 
-License
+## License
 This project is licensed under the MIT License.
 
-Contact
+## Contact
 For any inquiries or issues, please contact the project owner at tigran3838@gmail.com / tigran3838@mail.ru.
