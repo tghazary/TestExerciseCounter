@@ -26,25 +26,28 @@ Build and run the application using your IDE's or build and run Maven commands.
 ```
 Open a web browser and go to http://localhost:8080 to access the TestExerciseCounter application.
 
-Functionality
-The TestExerciseCounter application provides the following functionality:
+## Functionality
 
-The application displays a counter value on the webpage.
-Clicking the "Increment" button increases the counter value by 1.
-The counter value can be manually edited by entering a new value in the text field.
-The updated counter value is automatically saved in the H2 database.
-Technologies Used
+- The TestExerciseCounter application provides the following functionality:
+- The application displays a counter value on the webpage.
+- Clicking the "Increment" button increases the counter value by 1.
+- The counter value can be manually edited by entering a new value in the text field.
+- The updated counter value is automatically saved in the H2 database.
+- Please note that the counter value input only accepts integer values. If a non-integer value or an invalid input is entered, an error message will be displayed.
+
+
+## Technologies Used
 The TestExerciseCounter application is built using the following technologies:
 
-Java 17
+- Java 17
 
-Spring Boot
+- Spring Boot
 
-Vaadin
+- Vaadin
 
-H2 database
+- H2 database
 
-Maven
+- Maven
 
 
 ## Contributing
