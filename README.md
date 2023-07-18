@@ -4,22 +4,25 @@ TestExerciseCounter is a Java web application built with Spring Boot, Vaadin, an
 
 ## Installation and Setup
 
-1. Clone the repository to your local machine.
+1. Install Java and Maven on your local machine, if they are not already installed.
+
+2. Clone the repository to your local machine:
 
    ```shell
    git clone https://github.com/tghazary/TestExerciseCounter.git
+   
 Open the project in your preferred Java IDE.
 
-Build and run the application using Maven or your IDE's build and run commands.
+Build and run the application using your IDE's or build and run Maven commands.
 
 ## Install the required dependencies.
 ```shell
-   git clone https://github.com/tghazary/TestExerciseCounter.git
+   mvn install
 ```
 
 ## Run the application
 ```shell
-   git clone https://github.com/tghazary/TestExerciseCounter.git
+  mvn spring-boot:run
 ```
 Open a web browser and go to http://localhost:8080 to access the TestExerciseCounter application.
 
