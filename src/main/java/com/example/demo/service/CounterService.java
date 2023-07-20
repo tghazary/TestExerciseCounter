@@ -20,14 +20,14 @@ public class CounterService {
         return counter.getValue();
     }
 
-    @Transactional(isolation = Isolation.READ_COMMITTED)
+    @Transactional(isolation = Isolation.REPEATABLE_READ)
     public void incrementCounter() {
         Counter counter = counterRepository.findById(1L).orElse(new Counter());
         counter.setValue(counter.getValue() + 1);
         counterRepository.save(counter);
     }
 
-    @Transactional(isolation = Isolation.READ_COMMITTED)
+    @Transactional(isolation = Isolation.REPEATABLE_READ)
     public void setCounterValue(int value) {
         Counter counter = counterRepository.findById(1L).orElseThrow(() -> new IllegalStateException("Counter not found"));
         counter.setValue(value);
