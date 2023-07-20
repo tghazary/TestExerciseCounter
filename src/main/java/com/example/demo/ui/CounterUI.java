@@ -16,8 +16,8 @@ public class CounterUI extends VerticalLayout {
     private final CounterService counterService;
 
 
-    @Max(value = Integer.MAX_VALUE, message = "Value should not exceed 100")
-    @Min(value = Integer.MIN_VALUE, message = "Value should be greater than or equal to 0")
+    @Max(value = Integer.MAX_VALUE, message = "Value should not exceed" + Integer.MAX_VALUE)
+    @Min(value = Integer.MIN_VALUE, message = "Value should be greater than or equal " + Integer.MIN_VALUE)
     @Pattern(regexp = "\\d+", message = "Invalid value. Only digits are allowed.")
     private final TextField counterTextField;
 
